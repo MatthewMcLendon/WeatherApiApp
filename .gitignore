@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+pycache
+*.pyc
+bin
+obj
+*.db
+*.sqlite3
+.vscode
+dist
+.settings.js
