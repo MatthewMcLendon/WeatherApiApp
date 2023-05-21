@@ -3,7 +3,7 @@ export const weatherComponent = (weather) => {
   return `
     <section class="weather-card">
         <div class="weather-header">
-            <div class="weather-date">${new Date(weather.dt_text).toDateString(
+            <div class="weather-date">${new Date(weather.dt_txt).toDateString(
               "en-us"
             )}</div>
             <img src="http://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon">
